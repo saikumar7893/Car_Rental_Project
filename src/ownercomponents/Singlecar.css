@@ -1,0 +1,14 @@
+ul li{
+    font-weight: bold;
+}
+span{
+    font-weight: normal;
+}
+
+.car-img{
+    max-height: 400px;
+}
+
+@media (max-width:760px) {
+    
+}

@@ -1,0 +1,167 @@
+/* .back
+{
+    background-color: lightgrey;
+} */
+
+.whole
+{
+    background-color: whitesmoke;
+}
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+/* li:Link{
+    
+    text-decoration: none;
+} */
+
+.ss
+{display: flex;
+width: 100%;
+justify-content: flex;
+color: white;
+
+
+}
+#liii{
+    color: aliceblue;
+}
+
+.ulstyle
+{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 25px;
+    
+}
+
+li:link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+li{
+    color: black;
+   
+}
+a:hover{
+    background-color: papayawhip;
+    border-radius: 5%;
+    text-decoration-line: none;
+}
+
+.saik:hover{
+    width: 500px;
+}
+
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:rgb(135, 175, 207);
+  }
+  
+  #ss:hover .overlay {
+    opacity: 1;
+  }
+  .header
+  {
+    background-color: steelblue;
+  }
+
+  .form-container
+{
+    display:flex;
+    flex-direction: row;
+}
+.f1{
+    float: left;
+    margin-left:18%;
+  }
+  .f2
+  {
+    float: left;
+    margin-left:18%;
+
+  }
+.btn1
+{
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn2
+{
+    background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}  
+/* h4{
+    text-align: center;
+    margin-left: 300px;
+} */
+
+.submit-btn {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form1{
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px;
+    width:100%;
+  }
+  .my-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .my-table th,
+  .my-table td {
+    border: 1px solid black;
+    padding: 10px 2px;
+    text-align: center;
+  }
+  .my-table{
+    background-color: rgb(169, 120, 128);
+  }
+
+  label{
+    font-size: 15px;
+  }
+
+  .gap
+  {
+    padding: 10px;
+  }
+
+  ul li{
+    color: white;
+  }

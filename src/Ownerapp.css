@@ -1,0 +1,21 @@
+.effect:hover{
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.stat{
+  text-align: center;
+    border-top: 1px solid grey;
+    color: green;
+    text-shadow: green 2px 2px 5px;
+}
+
+.dropdown{
+  position: absolute;
+  /* top: 4.5rem; */
+  left: 50px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid grey;
+}

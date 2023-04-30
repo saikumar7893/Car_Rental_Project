@@ -1,0 +1,69 @@
+<div className='container-fluid whole'>
+    
+     
+      
+         <div className='row' style={{backgroundColor:'lightgrey'}} >
+          <div className='col-md-12' style={{marginLeft:'20px'}}>
+          <center> <h1>Car Rental Application</h1></center> 
+          </div>
+          </div>
+
+          <div className='row'>
+           
+          <div className='col-md-3' style={{backgroundColor:'lightgrey'}}>
+            <ul >
+         <li><Link to='/'>Available Cars</Link></li> 
+   
+   
+    <li> <Link to='/Modi'>History</Link></li>
+    
+     <li> <Link to='/Status'>Status</Link></li>
+
+</ul>
+
+          </div>
+
+          
+        <div className='col-md-9'>
+          <div className='row'>
+          
+            <div className='col-md-2'></div>
+          <div className='col-md-8' style={{backgroundColor:'lightgrey'}}><h3><center>Available Car Details</center></h3>
+          </div>
+          <div className='col-md-2'></div>
+         
+            
+            <div className='col-md-6'>
+            <center> <h3 style={{
+                color:'white'
+              }}>Car Details</h3>
+              <ul>
+                <li className='ss'> Licence Plate  </li>
+                <input type='text'/>
+                
+                <li className='ss'>Miles Driven</li>
+                <input type='text'/>
+                
+                <li className='ss'>Car Model</li>
+                <input type='text'/>
+                
+                <li className='ss'>Availability </li>
+                <input type='text'/>
+                
+              </ul>
+             <center><button className='btn btn-lg btn-info'>Feed Back</button></center>
+             </center>
+            </div> 
+           <div className='col-md-6'>
+            <img src={car2}/>
+           </div>
+            
+            
+          
+           </div>
+          </div>
+          </div> 
+
+
+          
+          </div> 
