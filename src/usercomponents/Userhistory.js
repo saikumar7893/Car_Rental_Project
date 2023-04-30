@@ -14,7 +14,7 @@ function Userhistory() {
           <nav className="ss">
             <ul className="ulstyle" style={{ paddingTop: "12px" }}>
              
-                <Link to="/">
+                <Link to="/Userhome">
                   <li>Available Cars</li>
                 </Link>
               

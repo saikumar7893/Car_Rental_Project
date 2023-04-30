@@ -18,7 +18,7 @@ function Userstatus()
         <div className='col-md-4 '>
           <nav className='ss'>
           <ul className='ulstyle' style={{paddingTop:'10px'}}>
-        <Link to='/'><li>Available_Cars</li></Link>
+        <Link to='/Userhome'><li>Available_Cars</li></Link>
      
      <Link to='/Userhistory'><li> History</li></Link>
       <Link to='/Userstatus'><li style={{backgroundColor:'papayawhip'}}>Status</li></Link>

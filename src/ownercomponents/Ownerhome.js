@@ -8,7 +8,11 @@ import car4 from '../images/KIA.jpg'
 import car5 from '../images/Scorpio.jpg'
 import {AiFillStar} from 'react-icons/ai'
 import { CardGroup } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import user from './user.png'
 import '../Ownerapp.css'
 
 const Ownerhome = () => {
@@ -31,6 +35,26 @@ const Ownerhome = () => {
 
   return (
     <div className="container-fluid">
+      <Navbar bg="light" expand="lg">
+      <Container>
+        <Navbar.Brand>
+          <img src={user} style={{width:"30px"}} />
+          </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Link to='/Ownerhome'></Link>
+            <Nav.Link><Link to='/Ownerhome'  ><li>Home</li></Link></Nav.Link>
+            <Nav.Link><Link to='/Ownerstatus'  ><li>View Status</li></Link></Nav.Link>
+            <Nav.Link><Link to='/Ownerhistory'  ><li>View History</li></Link></Nav.Link>
+            <Nav.Link><Link to='/Ownerpayment'><li>Payment</li></Link></Nav.Link>
+          </Nav>
+          <Nav>
+          <Nav.Link><Link to='/Logout'><li>Logout</li></Link></Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
       <div className="row mb-3">
         <div className="col-md-3">
           <Card onClick={navigatecar} className="effect">

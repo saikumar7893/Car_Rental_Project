@@ -6,6 +6,10 @@ import { BiSearchAlt2 } from 'react-icons/bi'
 import DataTable from 'react-data-table-component'
 import { Link } from 'react-router-dom';
 import { icons } from 'react-icons';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import user from './user.png'
 
 const Ownerpayment = () => {
 
@@ -91,6 +95,26 @@ const Ownerpayment = () => {
 
   return (
     <div className='container-fluid'>
+       <Navbar bg="light" expand="lg">
+      <Container>
+        <Navbar.Brand>
+          <img src={user} style={{width:"30px"}} />
+          </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Link to='/Ownerhome'></Link>
+            <Nav.Link><Link to='/Ownerhome'  ><li>Home</li></Link></Nav.Link>
+            <Nav.Link><Link to='/Ownerstatus'  ><li>View Status</li></Link></Nav.Link>
+            <Nav.Link><Link to='/Ownerhistory'  ><li>View History</li></Link></Nav.Link>
+            <Nav.Link><Link to='/Ownerpayment'><li>Payment</li></Link></Nav.Link>
+          </Nav>
+          <Nav>
+          <Nav.Link><Link to='/Logout'><li>Logout</li></Link></Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
       <div className='row'>
         <h2 style={{textAlign:"center" , fontWeight:"bold"}}>PaymentStatus</h2>
       </div>

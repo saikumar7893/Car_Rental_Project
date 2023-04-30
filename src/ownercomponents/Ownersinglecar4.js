@@ -1,7 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import car1 from '../images/KIA.jpg'
-import "./Singlecar.css"
+import "./Singlecar.css";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import user from './user.png'
 
 const Ownnersinglecar4 = () => {
 
