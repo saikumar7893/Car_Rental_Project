@@ -42,15 +42,16 @@ function Log1(){
     },[]);
    
     return (
-        <>
+        <div >
         <div className="lgin" >
         <div className="row">
-                <div className="col-md-3 name">
-                    <h1>HR'S CAR RENTAL <br></br>SERVICES</h1>
+                <div className="col-md-12 name">
+                    <center><h1 style={{color:'blue'}}>Car Rentals SERVICES</h1></center>
                     
                 </div>
                
             </div>
+            <br/>
         <div className="row">
           
             <div className="col-md-6 offset-md-3 lgn" >
@@ -90,14 +91,14 @@ function Log1(){
 </div>
             </div>
            <div className="row">
-            <div className="col-md-5 offset-md-4">
-            <h5 style={{color:'white',marginTop:'1%',marginLeft:'11%'}}>Don't have an account ? Click here to<button style={{backgroundColor:'transparent',border:'0px',color:'blue'}} onClick={fun}>Signup</button></h5>
+            <div className="col-md-3 offset-md-4">
+            <center><h2 style={{color:'black',marginTop:'1%',marginLeft:'11%'}}>Don't have an account ? Click here to<button style={{backgroundColor:'transparent',border:'0px',color:'blue'}} onClick={fun}>Signup</button></h2></center>
             </div>
            </div>
       
         </div>
         </div>
-        </>
+        </div>
     )
 }
 export default Log1;

@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import './Signup.css';
 import Form from 'react-bootstrap/Form';
 import { Button } from 'react-bootstrap';
-// import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 function Signup(){ 
     const [formdata,setform]=useState({
         username:''
@@ -14,7 +14,7 @@ function Signup(){
         })
     }
      function  fun(){
-        // navig('/');
+        navig('/');
     }
     const handleSubmit = async () => {
         // navig('/');
@@ -30,7 +30,7 @@ function Signup(){
         //    navig('/');
         })
       }
-    // const navig=useNavigate();   
+    const navig=useNavigate();   
    
    
 
@@ -38,8 +38,8 @@ function Signup(){
         <>
         <div className="lgin">
         <div className="row">
-                <div className="col-md-3 name">
-                    <h1>HR'S CAR RENTAL <br></br>SERVICES</h1>
+        <div className="col-md-12 name">
+                    <center><h1 style={{color:'blue'}}>Car Rentals SERVICES</h1></center>
                     
                 </div>
                 <div className="col-md-9"></div>
@@ -99,7 +99,7 @@ function Signup(){
         </div>
         <div className="row">
             <div className="col-md-5 offset-md-4">
-            <h5 style={{color:'white',marginTop:'1%',marginLeft:'5%'}}>Already have an account ? Click here to Login<button style={{backgroundColor:'transparent',border:'0px',color:'blue'}} onClick={fun}>Login</button></h5>
+            <h5 style={{color:'black',marginTop:'1%',marginLeft:'5%'}}>Already have an account ? Click here to Login<button style={{backgroundColor:'transparent',border:'0px',color:'blue'}} onClick={fun}>Login</button></h5>
             </div>
            </div>
         </div>

@@ -1,6 +1,5 @@
-
 require('dotenv').config();
-const url='mongodb://0.0.0.0:27017/Car_Rental';
+const url='mongodb+srv://veeraharisaikumar2:sai123bro@cluster0.zirdrb8.mongodb.net/Carental';
 const express=require('express');
 const cors=require('cors');
 const monk=require('monk');
